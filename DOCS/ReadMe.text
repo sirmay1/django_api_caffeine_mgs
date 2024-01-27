@@ -1,0 +1,14 @@
+DATE: 08/27/20203, Think of idea's of what to create next? Below I will write a couple of idea's on what I can or should create.
+
+Idea's:
+1- Create a categories type of crud app with Django. Where I would have the following categories:
+
+example:
+
+class TechList(models.Model):
+    name = models.CharField(max_length=100) # name of tech, language, framework.
+    type = models.CharField(max_length=100) # what is it? framework, lib?
+    description = models.TextField(max_length=500) # small description of tech
+
+
+
