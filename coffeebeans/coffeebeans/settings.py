@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'caffeine',
 ]
 
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
